@@ -1,13 +1,9 @@
 {
   "actorSpecification": 1,
-  "name": "linkedin-jobs-pro-scraper",
-  "title": "LinkedIn Jobs Pro Scraper",
-  "description": "Scrapes LinkedIn job listings with job details and company info",
+  "name": "linkedin-minimal",
+  "title": "LinkedIn Minimal Scraper",
   "version": "1.0",
   "buildTag": "latest",
-  "meta": {
-    "templateId": "js-playwright"
-  },
   "input": "../INPUT_SCHEMA.json",
   "main": "src/main.js"
 }
