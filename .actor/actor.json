@@ -8,6 +8,6 @@
   "meta": {
     "templateId": "js-playwright"
   },
-  "input": "./INPUT_SCHEMA.json",
+  "input": "../INPUT_SCHEMA.json",
   "main": "src/main.js"
 }
