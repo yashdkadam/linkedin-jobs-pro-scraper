@@ -1,16 +1,23 @@
 {
   "title": "LinkedIn Jobs Pro Scraper",
   "type": "object",
+  "schemaVersion": 1,
   "properties": {
     "searchUrls": {
+      "title": "Search URLs",
       "type": "array",
-      "items": { "type": "string" }
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      }
     },
     "maxJobs": {
+      "title": "Maximum jobs to scrape",
       "type": "integer",
       "default": 100
     },
     "scrapeJobDetails": {
+      "title": "Scrape job details",
       "type": "boolean",
       "default": true
     }
