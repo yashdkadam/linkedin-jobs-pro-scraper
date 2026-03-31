@@ -1,10 +1,12 @@
 {
   "title": "LinkedIn Jobs Pro Scraper",
+  "description": "Scrape LinkedIn job listings with optional job details",
   "type": "object",
   "schemaVersion": 1,
   "properties": {
     "searchUrls": {
       "title": "Search URLs",
+      "description": "List of LinkedIn job search URLs",
       "type": "array",
       "editor": "stringList",
       "items": {
@@ -13,11 +15,13 @@
     },
     "maxJobs": {
       "title": "Maximum jobs to scrape",
+      "description": "Total number of job listings to extract",
       "type": "integer",
       "default": 100
     },
     "scrapeJobDetails": {
       "title": "Scrape job details",
+      "description": "Whether to visit each job page and extract full details",
       "type": "boolean",
       "default": true
     }
