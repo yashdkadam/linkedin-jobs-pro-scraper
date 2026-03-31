@@ -1,0 +1,19 @@
+{
+  "title": "LinkedIn Jobs Pro Scraper",
+  "type": "object",
+  "properties": {
+    "searchUrls": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "maxJobs": {
+      "type": "integer",
+      "default": 100
+    },
+    "scrapeJobDetails": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": ["searchUrls"]
+}

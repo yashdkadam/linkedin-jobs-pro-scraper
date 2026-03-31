@@ -1,0 +1,7 @@
+{
+  "name": "linkedin-jobs-pro-scraper",
+  "version": "1.0",
+  "buildTag": "latest",
+  "env": {},
+  "main": "src/main.js"
+}
